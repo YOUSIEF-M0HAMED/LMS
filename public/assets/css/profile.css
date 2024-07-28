@@ -1,0 +1,38 @@
+.profile-container > div > .card > .first-div {
+  background-color: #000;
+  height: 230px;
+}
+.profile-container > div > .card > .first-div > div {
+  width: 150px;
+}
+.profile-container > div > .card > .first-div > div > form {
+  height: 200px;
+}
+.profile-container > div > .card > div > div .profile-image {
+  height: 178px;
+  position: relative;
+  z-index: 1;
+}
+
+.profile-container > div > .card > div > div .profile-image img {
+  height: 180px;
+}
+.profile-container > div > .card > div > div .photo-edit {
+  z-index: 1;
+  position: relative;
+  bottom: -27px;
+}
+.profile-container > div > .card > div > .main-info-holder {
+  margin-top: 130px;
+}
+.profile-container > div > .card > .card-body {
+  margin-top: 100px;
+}
+.important-info > div,
+.additional-info > div {
+  background-color: #eee;
+}
+.important-info > div > p.first,
+.additional-info > div > p.first {
+  width: 150px;
+}

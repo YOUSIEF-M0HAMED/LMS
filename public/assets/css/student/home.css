@@ -1,0 +1,9 @@
+/* Test */
+.student-home .products {
+}
+
+.student-home .products .product {
+  background-color: white;
+  padding: var(--main-padding);
+  border-radius: 5px;
+}

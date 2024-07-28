@@ -1,0 +1,168 @@
+.post .post-image {
+  height: 300px;
+}
+
+.post .owner img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post .owner ul li:nth-child(2) {
+  font-size: 12px;
+}
+
+.post .reaction-bar li {
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.post .reaction-bar li:hover {
+  background-color: var(--styleColor);
+}
+
+.post .reaction-bar li:hover a {
+  color: black;
+}
+
+.post .reaction-bar li a {
+  color: var(--main-color);
+  font-size: 18px;
+}
+
+.post .reaction-bar li svg {
+  font-size: 20px;
+}
+/* -------------------------------------------- */
+/* edit page */
+#change_post_image label {
+  cursor: pointer;
+}
+
+.card-body > a {
+  color: black;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.comment .content {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.comment .author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment .time {
+  color: #999;
+  font-size: 12px;
+}
+
+.comment :nth-child(4) > form > button {
+  border: none;
+  margin-left: 5px;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.replies :nth-child(4),
+.comment :nth-child(4) {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.replies > .comment :nth-last-child(2) {
+  display: flex;
+  flex-direction: row;
+}
+
+.replies :nth-child(4) :nth-child(1) > button,
+.comment :nth-child(4) :nth-child(1) > button {
+  background-color: #252323;
+}
+
+.replies :nth-child(4) :nth-child(2) > button,
+.comment :nth-child(4) :nth-child(2) > button {
+  background-color: #c02b2b;
+}
+
+.replies :nth-child(4) :nth-child(1) > button:hover {
+  background-color: #000000;
+}
+
+.replies :nth-child(4) :nth-child(2) > button:hover {
+  background-color: #d50000;
+}
+
+.comment > form :nth-child(6) {
+  height: 45px;
+  width: 100%;
+}
+
+.comment > form {
+  display: flex;
+}
+.comment > form > button {
+  padding: 8px 16px;
+  margin-left: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.comment > form > button:hover {
+  background-color: #0056b3;
+}
+.replies {
+  margin-left: 20px;
+  border-left: 1px solid #ddd;
+  padding-left: 15px;
+}
+
+/* Styles for form */
+.comment-form {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.comment-form textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.comment-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #0056b3;
+}

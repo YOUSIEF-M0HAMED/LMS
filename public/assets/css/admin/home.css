@@ -1,0 +1,28 @@
+/* Test */
+/* .admin-home .products {
+}
+
+.admin-home .products .product {
+  background-color: white;
+  padding: var(--main-padding);
+  border-radius: 5px;
+} */
+.card-title {
+  font-size: 2rem;
+}
+
+.card-title,
+.card-label {
+  font-weight: 700;
+}
+
+.card-label {
+  padding-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.progress-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

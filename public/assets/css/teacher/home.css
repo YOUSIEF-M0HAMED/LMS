@@ -1,0 +1,9 @@
+/* Test */
+.teacher-home .products {
+}
+
+.teacher-home .products .product {
+  background-color: white;
+  padding: var(--main-padding);
+  border-radius: 5px;
+}
